@@ -51,6 +51,12 @@ public class Main {
         }
             System.out.println("Would you like to attack? (y/n)");
         }
+        if (game.getPlayerHealth() <= 0) {
+            System.out.println("You died!");
+        }
+        else {
+            System.out.println("You win!");
+        }
 
     }
 
